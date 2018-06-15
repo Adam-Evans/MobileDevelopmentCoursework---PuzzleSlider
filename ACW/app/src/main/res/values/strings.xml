@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ACW</string>
+    <string name="choose_a_puzzle">Choose a Puzzle</string>
+    <string name="offline_puzzles">Offline Puzzles</string>
+    <string name="download_a_puzzle">Download A Puzzle</string>
+    <string name="retry">Retry</string>
+    <string name="time">Time</string>
+    <string name="moves">Moves</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="your_score">Your Score</string>
+    <string name="highscore">HighScore</string>
+</resources>

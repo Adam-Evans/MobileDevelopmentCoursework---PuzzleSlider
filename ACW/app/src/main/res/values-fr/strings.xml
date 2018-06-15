@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ACW</string>
+    <string name="choose_a_puzzle">Choisissez un puzzle</string>
+    <string name="offline_puzzles">Puzzles hors-ligne</string>
+    <string name="download_a_puzzle">Télécharger un puzzle</string>
+    <string name="retry">recommencez</string>
+    <string name="time">Temps</string>
+    <string name="moves">Se déplace</string>
+    <string name="main_menu">Menu principal</string>
+    <string name="your_score">Ton score</string>
+    <string name="highscore">Score élevé</string>
+</resources>

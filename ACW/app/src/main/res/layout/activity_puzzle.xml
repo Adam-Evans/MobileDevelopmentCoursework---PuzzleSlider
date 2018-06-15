@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    tools:context="mobile.labs.acw.PuzzleActivity">
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/Retry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:columnWidth="200dp"
+        android:horizontalSpacing="0dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="0dp" />
+
+    <Button
+        android:id="@+id/Retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:text="@string/retry" />
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Retry"
+        android:layout_alignBottom="@+id/Retry"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="57dp"
+        android:layout_toEndOf="@+id/Retry"
+        android:layout_toRightOf="@+id/Retry"
+        android:text="@string/time"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/MovesCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Retry"
+        android:layout_alignBottom="@+id/Retry"
+        android:layout_marginLeft="83dp"
+        android:layout_marginStart="83dp"
+        android:layout_toEndOf="@+id/Time"
+        android:layout_toRightOf="@+id/Time"
+        android:text="@string/moves" />
+
+
+
+</RelativeLayout>
